@@ -1,0 +1,158 @@
+# Laravel Backend
+/Back/vendor/
+/Back/node_modules/
+/Back/public/hot
+/Back/public/storage
+/Back/storage/*.key
+/Back/.env
+/Back/.env.backup
+/Back/.env.production
+/Back/.phpunit.result.cache
+/Back/Homestead.json
+/Back/Homestead.yaml
+/Back/auth.json
+/Back/npm-debug.log
+/Back/yarn-error.log
+/Back/.DS_Store
+/Back/Thumbs.db
+
+# Laravel Storage & Logs
+/Back/storage/app/*
+!/Back/storage/app/.gitkeep
+/Back/storage/framework/cache/*
+!/Back/storage/framework/cache/.gitkeep
+/Back/storage/framework/sessions/*
+!/Back/storage/framework/sessions/.gitkeep
+/Back/storage/framework/testing/*
+!/Back/storage/framework/testing/.gitkeep
+/Back/storage/framework/views/*
+!/Back/storage/framework/views/.gitkeep
+/Back/storage/logs/*
+!/Back/storage/logs/.gitkeep
+
+# Vue.js Frontend
+/Front/node_modules/
+/Front/dist/
+/Front/.tmp/
+/Front/.sass-cache/
+/Front/connect.lock/
+/Front/coverage/
+/Front/libpeerconnection.log
+/Front/npm-debug.log*
+/Front/yarn-debug.log*
+/Front/yarn-error.log*
+/Front/testem.log
+/Front/typings/
+/Front/.nyc_output/
+/Front/.env.local
+/Front/.env.development.local
+/Front/.env.test.local
+/Front/.env.production.local
+
+# Build outputs
+/Front/dist/
+/Front/build/
+/Front/.vite/
+
+# IDE & Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Dependency directories
+node_modules/
+vendor/
+
+# Lock files (optional - some teams prefer to commit these)
+package-lock.json
+yarn.lock
+composer.lock
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Database
+*.sqlite
+*.sqlite3
+*.db
+
+# Temporary files
+*.tmp
+*.temp
+
+# Cache
+.cache/
+*.cache
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Backup files
+*.backup
+*.bak
+*.old
+
+# Compiled source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Archives
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Laravel specific
+/Back/bootstrap/compiled.php
+/Back/.env.*.php
+/Back/.env.php
+/Back/.env
+
+# Vue/Vite specific
+/Front/.vite/
+/Front/dist-ssr/
+/Front/*.local
+
+# Testing
+/Back/tests/_output/
+/Back/tests/_support/_generated/
+
+# Documentation build
+docs/_build/
+
+# Miscellaneous
+*.tgz
+*.tar.gz
